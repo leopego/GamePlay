@@ -1,4 +1,5 @@
 import { StyleSheet, Dimensions } from "react-native";
+import { theme } from "../../global/styles/theme";
 
 const screenWidth = Dimensions.get("screen").width;
 
@@ -21,6 +22,7 @@ export const styles = StyleSheet.create({
     fontWeight: "700",
     marginBottom: 16,
     lineHeight: 40,
+    fontFamily: theme.fonts.title700,
   },
   subtitle: {
     color: "#DDE3F0",
@@ -28,6 +30,7 @@ export const styles = StyleSheet.create({
     fontSize: 15,
     lineHeight: 25,
     marginBottom: 48,
+    fontFamily: theme.fonts.title500,
   },
   mainButton: {
     width: "100%",

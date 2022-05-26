@@ -9,7 +9,7 @@ import { styles } from "../screens/SignIn/styles";
 import Icon from "../assets/discord.png";
 
 type Props = TouchableOpacityProps & {
-  title: String;
+  title: string;
 };
 
 const ButtonIcon = ({ title, ...rest }: Props) => {
