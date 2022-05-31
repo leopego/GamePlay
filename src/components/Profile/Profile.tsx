@@ -1,5 +1,6 @@
 import { Text, View } from "react-native";
 import Avatar from "../Avatar/Avatar";
+import ButtonAdd from "../ButtonAdd/ButtonAdd";
 import { styles } from "./styles";
 
 const Profile = () => {
