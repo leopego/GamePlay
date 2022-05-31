@@ -1,11 +1,4 @@
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  Image,
-  ScrollView,
-  TouchableOpacityProps,
-} from "react-native";
+import { ScrollView } from "react-native";
 import { categories } from "../../utils/categories";
 import Category from "../Category/Category";
 import { styles } from "./styles";
